@@ -6,4 +6,3 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
 
 - We include the [Paddlepaddle](https://github.com/PaddlePaddle/Paddle) training code at ().
 - We include the [Pytorch](https://pytorch.org/) training code at [Here](https://github.com/layumi/AICIty-reID-2020/tree/master/pytorch).
-- The post-processing code is at ().
