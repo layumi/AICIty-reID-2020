@@ -25,3 +25,8 @@ python train_ft_2020.py --name ft_SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug  
 ```bash
 python submit_result_multimodel.py --name ft_SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug
 ```
+
+### Combine the feature extracted from Paddlepaddle & Pytorch Models to output the Submission.
+```bash
+python fast_submit.py
+```
