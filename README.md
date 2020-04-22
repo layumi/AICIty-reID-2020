@@ -1,6 +1,8 @@
 ## AICity-reID 2020 (track2)
 
-In this repo, we include the 1st Place submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)
+![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)
+
+In this repo, we include the 1st Place submission to [AICity Challenge](https://www.aicitychallenge.org/) 2020 re-id track (Baidu-UTS submission)
 
 We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we provide the two training parts seperatively as following. 
 
