@@ -1,4 +1,5 @@
 ## Vehicle Re-ID
+The code is modified from our baseline code (https://github.com/layumi/Person_reID_baseline_pytorch)
 
 ### Prepare data 
 ```bash
