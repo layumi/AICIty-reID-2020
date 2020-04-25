@@ -8,3 +8,10 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
 
 - We include the [Paddlepaddle](https://github.com/PaddlePaddle/Paddle) training code at [Here](https://github.com/miraclebiu/PaddleReid) (will update soon).
 - We include the [Pytorch](https://pytorch.org/) training code at [Here](https://github.com/layumi/AICIty-reID-2020/tree/master/pytorch).
+
+### Related Repos：
+[Vehicle re-ID Paper Collection] https://github.com/layumi/Vehicle_reID-Collection
+
+[Person re-ID Baseline] https://github.com/layumi/Person_reID_baseline_pytorch
+
+[Person/Vehicle Generation] https://github.com/NVlabs/DG-Net
