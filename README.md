@@ -19,6 +19,9 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  |DMT|73.1%|[code](https://github.com/heshuting555/AICITY2020_DMT_VehicleReID)|
 
 ### Related Repos：
+
+ :helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
+ 
 [Vehicle re-ID Paper Collection] https://github.com/layumi/Vehicle_reID-Collection
 
 [Person re-ID Baseline] https://github.com/layumi/Person_reID_baseline_pytorch
