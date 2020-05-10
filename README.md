@@ -19,7 +19,7 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  |DMT|73.1%|[code](https://github.com/heshuting555/AICITY2020_DMT_VehicleReID)|
 
 ### Extracted Features & Camera Prediction & Direction Prediction:
-You may dowanload from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6kTehFRiISu0g9xKI3PScbc/view?usp=sharing)
+You may dowanload from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6kTehFRiISu0g9xKI3PScbc/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/ES6hLEPxZpBNhniTczS6R9sBURNdPqG-l2krgO4joUH4UA?e=lJEhTr)
 ```
 ├── final_features/
 │   ├── features/                  /* extracted pytorch feature
@@ -27,17 +27,17 @@ You may dowanload from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6
 │       ├── real_query_fea_ResNeXt101_32x8d_wsl_416_416_final.pkl 
 |           ...
 │       ├── query_fea_Res2Net101_vd_final2.pkl                 
-│   ├── gallery_cam_preds_baidu      /*  gallery camera prediction
-│   ├── query_cam_preds_baidu      /*  query camera prediction
+│   ├── gallery_cam_preds_baidu.txt      /*  gallery camera prediction
+│   ├── query_cam_preds_baidu.txt      /*  query camera prediction
 |   ├── submit_cam.mat             /*  camera feature for camera similarity calculation
 ```
 
 ### Related Repos：
 
- :helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
+- :helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
  
-[Vehicle re-ID Paper Collection] https://github.com/layumi/Vehicle_reID-Collection
+- [Vehicle re-ID Paper Collection] https://github.com/layumi/Vehicle_reID-Collection
 
-[Person re-ID Baseline] https://github.com/layumi/Person_reID_baseline_pytorch
+- [Person re-ID Baseline] https://github.com/layumi/Person_reID_baseline_pytorch
 
-[Person/Vehicle Generation] https://github.com/NVlabs/DG-Net
+- [Person/Vehicle Generation] https://github.com/NVlabs/DG-Net
