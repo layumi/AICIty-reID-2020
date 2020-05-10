@@ -27,6 +27,8 @@ python train_ft_2020.py --name ft_SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug  
 python submit_result_multimodel.py --name ft_SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug
 ```
 
+If you want to directly test the result, the extracted features & camera prediction & direction prediction could be dowanloaded from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6kTehFRiISu0g9xKI3PScbc/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/ES6hLEPxZpBNhniTczS6R9sBURNdPqG-l2krgO4joUH4UA?e=lJEhTr).
+
 ### Combine the feature extracted from Paddlepaddle & Pytorch Models to output the Submission.
 ```bash
 python fast_submit.py
