@@ -18,12 +18,12 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  |RuiYanAI|78.1%|[code](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)|
  |DMT|73.1%|[code](https://github.com/heshuting555/AICITY2020_DMT_VehicleReID)|
 
-### Trained Features & Camera Prediction & Direction Prediction:
-You may dowanload from [OneDrive]()
+### Extracted Features & Camera Prediction & Direction Prediction:
+You may dowanload from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6kTehFRiISu0g9xKI3PScbc/view?usp=sharing)
 ```
 ├── final_features/
-│   ├── features/                  /* extract pytorch feature
-│   ├── pkl_feas/                   /* extract paddle feature (include direction similarity)
+│   ├── features/                  /* extracted pytorch feature
+│   ├── pkl_feas/                   /* extracted paddle feature (include direction similarity)
 │       ├── real_query_fea_ResNeXt101_32x8d_wsl_416_416_final.pkl 
 |           ...
 │       ├── query_fea_Res2Net101_vd_final2.pkl                 
