@@ -18,6 +18,20 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  |RuiYanAI|78.1%|[code](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)|
  |DMT|73.1%|[code](https://github.com/heshuting555/AICITY2020_DMT_VehicleReID)|
 
+### Trained Features & Camera Prediction & Direction Prediction:
+You may dowanload from [OneDrive]()
+```
+├── final_features/
+│   ├── features/                  /* extract pytorch feature
+│   ├── pkl_feas/                   /* extract paddle feature (include direction similarity)
+│       ├── real_query_fea_ResNeXt101_32x8d_wsl_416_416_final.pkl 
+|           ...
+│       ├── query_fea_Res2Net101_vd_final2.pkl                 
+│   ├── gallery_cam_preds_baidu      /*  gallery camera prediction
+│   ├── query_cam_preds_baidu      /*  query camera prediction
+|   ├── submit_cam.mat             /*  camera feature for camera similarity calculation
+```
+
 ### Related Repos：
 
  :helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
