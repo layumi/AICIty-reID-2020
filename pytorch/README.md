@@ -1,6 +1,9 @@
 ## Vehicle Re-ID
 The code is modified from our baseline code (https://github.com/layumi/Person_reID_baseline_pytorch)
 
+### Prerequisite
+EfficientNet-Pytorch https://github.com/lukemelas/EfficientNet-PyTorch
+
 ### Prepare data 
 ```bash
 python prepare_2020.py            #used to train the re-id model
