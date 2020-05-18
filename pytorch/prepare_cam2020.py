@@ -39,30 +39,4 @@ if not os.path.isdir(virtual_path):
                     os.mkdir(dst_all_path)
             copyfile(src_path, dst_all_path + '/' + name)
 
-result = scipy.io.loadmat('label.mat')
-query_c = result['query_c'].flatten()
-gallery_c = result['gallery_c'].flatten()
-query_l = result['query_l'].flatten()
-gallery_l = result['gallery_l'].flatten()
-
-query_path = download_path + '/image_query/'
-query_save_path = download_path + '/pytorch2020-cam/query'
-if not os.path.isdir(query_save_path):
-    os.mkdir(query_save_path)
-    for i in range(40):
-        dst_path = query_save_path + '/' + '%03d'%(i+1)
-        if not os.path.isdir(dst_path):
-                os.mkdir(dst_path)
-
-    for root, dirs, files in os.walk(query_path, topdown=True):
-        for name in files:
-            if not name[-3:]=='jpg':
-                continue
-            src_path = query_path + '/' + name
-            index = int(name[0:-4])
-            dst_path = query_save_path + '/' + '%03d'%(query_c[index-1])
-            if not os.path.isdir(dst_path):
-                    os.mkdir(dst_path)
-            copyfile(src_path, dst_path + '/' + name)
-            print(dst_path + '/' + name)
 
