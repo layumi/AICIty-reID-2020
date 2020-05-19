@@ -4,7 +4,12 @@ The code is modified from our baseline code (https://github.com/layumi/Person_re
 ### Prerequisite
 EfficientNet-Pytorch https://github.com/lukemelas/EfficientNet-PyTorch
 
-### Prepare data 
+### Prepare data
+Make a dir and put the AICity2020 data into this folder.
+```bash
+mkdir data
+```
+Then you could run the following code to prepare the data for pytorch to load data. You may modify the data path.
 ```bash
 python prepare_2020.py            #used to train the re-id model
 python prepare_cam2020.py         #used to train the camera-aware model
