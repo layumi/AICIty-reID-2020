@@ -9,7 +9,16 @@ Make a dir and put the AICity2020 data into this folder.
 ```bash
 mkdir data
 ```
-Extract XML information https://github.com/PaddlePaddle/Research/tree/master/CV/PaddleReid/process_aicity_data
+Extract XML information https://github.com/PaddlePaddle/Research/tree/master/CV/PaddleReid/process_aicity_data 
+and rename the file. 
+```
+|- data
+    |- 2020AICITY
+        |- ...
+        |- 000345_c020_9.jpg
+        |- ...
+        |- 002028_c036_4_9_95_2.jpg
+```
 
 Then you could run the following code to prepare the data for pytorch to load data. You may modify the data path.
 ```bash
