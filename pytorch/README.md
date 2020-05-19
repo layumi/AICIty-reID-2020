@@ -9,6 +9,8 @@ Make a dir and put the AICity2020 data into this folder.
 ```bash
 mkdir data
 ```
+Extract XML information https://github.com/PaddlePaddle/Research/tree/master/CV/PaddleReid/process_aicity_data
+
 Then you could run the following code to prepare the data for pytorch to load data. You may modify the data path.
 ```bash
 python prepare_2020.py            #used to train the re-id model
