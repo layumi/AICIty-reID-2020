@@ -41,3 +41,14 @@ You may dowanload from [GoogleDrive](https://drive.google.com/file/d/1RAQFT9umi6
 - [Person re-ID Baseline] https://github.com/layumi/Person_reID_baseline_pytorch
 
 - [Person/Vehicle Generation] https://github.com/NVlabs/DG-Net
+
+### Citation
+Please cite this paper if it helps your research:
+```bibtex
+@article{zheng2020beyond,
+  title={Going beyond real data: a robust visual representation for vehicle re-identification},
+  author={Zhedong Zheng, Minyue Jiang, Zhigang Wang, Jian Wang, Zechen Bai, Xuanmeng Zhang, Xin Yu, Xiao Tan, Yi Yang, Shilei Wen, and Errui Ding},
+  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year={2020}
+}
+```
