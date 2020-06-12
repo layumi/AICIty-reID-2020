@@ -19,7 +19,7 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  |DMT|73.1%|[code](https://github.com/heshuting555/AICITY2020_DMT_VehicleReID)|
 
 ### Extracted Features & Camera Prediction & Direction Prediction:
-You may download from [GoogleDrive](https://drive.google.com/file/d/1_S1RnnP2fK3wQ68DsSAiFJYvyqzh55_d/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/EebBIatfjE9Nksrl9UQGfQ4B5DIFem7DbJu9i2erpSZ1IQ?e=ukKcuZ)
+I have updated the feature. You may download from [GoogleDrive](https://drive.google.com/file/d/1q0ap5smXoRIQ-oEUMbSMMSl_lEOT0Fk6/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/EdxlWLP9bB9Bga0jfDyoIO8BoArp7CU72iXPfaNbM8cRuw?e=KS20JX)
 ```
 ├── final_features/
 │   ├── features/                  /* extracted pytorch feature
