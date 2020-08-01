@@ -51,4 +51,11 @@ Please cite this paper if it helps your research:
   journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
   year={2020}
 }
+
+@article{zheng2020beyond,
+  title={VehicleNet: Learning Robust Feature Representation for Vehicle Re-identification},
+  author={Zhedong Zheng, Tao Ruan, Yunchao Wei, Yi Yang, Mei Tao},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2020}
+}
 ```
