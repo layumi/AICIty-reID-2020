@@ -522,16 +522,27 @@ for i in range(nq):
         score_total[i,ignore_index] = score_total[i,ignore_index] - 0.2
 
 score_total = score_total.cpu().numpy()
-ntop = 29 # delete the different tracklet with the same camera of top 5
+ntop = 99 # delete the different tracklet with the same camera of top 5
 for j in range(ntop):
     for i in range(nq):
         topk_index = np.argsort(score_total[i,:])
         topk_index = topk_index[-1-j]
-        good_index = np.argwhere(glabels==glabels[topk_index] ) 
+        good_index = np.argwhere(glabels==glabels[topk_index] )
         if g_cam[topk_index] !=-1:
             bad_index = np.argwhere(g_cam==g_cam[topk_index])
             ignore_index = np.setdiff1d(bad_index, good_index)
-            score_total[i,ignore_index] = score_total[i,ignore_index] - 0.1
+            score_total[i,ignore_index] = score_total[i,ignore_index] - 0.3/(1+j)
+        else:
+        #    # same direction in 6,7,8,9
+            bad_index = np.argwhere(g_g_direction_sim[topk_index,:] >= 0.25)
+            #bad_index2 = np.argwhere(g_cam == -1)
+            #bad_index = np.intersect1d(bad_index1, bad_index2)
+            ignore_index = np.setdiff1d(bad_index, good_index)
+            score_total[i,ignore_index] = score_total[i,ignore_index] - 0.1/(1+j)
+        if g_cam_cluster[topk_index] != -1:
+            bad_index = np.argwhere(g_cam_cluster==g_cam_cluster[topk_index])
+            ignore_index = np.setdiff1d(bad_index, good_index)
+            score_total[i,ignore_index] = score_total[i,ignore_index] - 0.1/(1+j)
 
 score_total_copy = score_total
 
