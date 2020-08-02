@@ -20,7 +20,7 @@ import yaml
 from tqdm import tqdm
 from sklearn.cluster import DBSCAN
 from model import ft_net, ft_net_angle, ft_net_dense, ft_net_NAS, PCB, PCB_test, CPB
-from evaluate_gpu_100 import calculate_result
+from evaluate_gpu import calculate_result
 from evaluate_rerank import calculate_result_rerank
 from re_ranking import re_ranking, re_ranking_one
 from utils import load_network
