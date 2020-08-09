@@ -45,17 +45,19 @@ I have updated the feature. You may download from [GoogleDrive](https://drive.go
 ### Citation
 Please cite this paper if it helps your research:
 ```bibtex
-@article{zheng2020beyond,
-  title={Going beyond real data: a robust visual representation for vehicle re-identification},
-  author={Zhedong Zheng, Minyue Jiang, Zhigang Wang, Jian Wang, Zechen Bai, Xuanmeng Zhang, Xin Yu, Xiao Tan, Yi Yang, Shilei Wen, and Errui Ding},
-  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+@inproceedings{zheng2020going,
+  title={Going beyond real data: A robust visual representation for vehicle re-identification},
+  author={Zheng, Zhedong and Jiang, Minyue and Wang, Zhigang and Wang, Jian and Bai, Zechen and Zhang, Xuanmeng and Yu, Xin and Tan, Xiao and Yang, Yi and Wen, Shilei and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={598--599},
   year={2020}
 }
 
 @article{zheng2020beyond,
   title={VehicleNet: Learning Robust Feature Representation for Vehicle Re-identification},
-  author={Zhedong Zheng, Tao Ruan, Yunchao Wei, Yi Yang, Mei Tao},
+  author={Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao},
   journal={IEEE Transactions on Multimedia (TMM)},
+  doi={10.1109/TMM.2020.3014488},
   year={2020}
 }
 ```
