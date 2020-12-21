@@ -54,7 +54,7 @@ Please cite this paper if it helps your research:
 }
 
 @article{zheng2020beyond,
-  title={VehicleNet: Learning Robust Feature Representation for Vehicle Re-identification},
+  title={VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification},
   author={Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao},
   journal={IEEE Transactions on Multimedia (TMM)},
   doi={10.1109/TMM.2020.3014488},
