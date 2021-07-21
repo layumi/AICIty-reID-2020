@@ -58,6 +58,7 @@ Please cite this paper if it helps your research:
   author={Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao},
   journal={IEEE Transactions on Multimedia (TMM)},
   doi={10.1109/TMM.2020.3014488},
+  note={\mbox{doi}:\url{10.1109/TMM.2020.3014488}},
   year={2020}
 }
 ```
