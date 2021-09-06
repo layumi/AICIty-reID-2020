@@ -28,6 +28,10 @@ Here we provide one model of the final models.
 
 - SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug (AICity 2020) can be downloaded at [[GoogleDrive]](https://drive.google.com/file/d/1AZ4hHbRbz2T8OHJ6QTG9bR7CP2zUOyQh/view?usp=sharing). 
 
+The state-of-the-art model achieving 83.41% mAP on [VeRi-776](https://github.com/JDAI-CV/VeRidataset), which is based on our TMM paper. 
+- Training on VehicelNet only (80.91): Res50_imbalance_s1_256_p0.5_lr2_mt_d0_b48 (TMM) can be downloaded at [[GoogleDrive]](https://drive.google.com/file/d/1wUbYm5-EJs0W-LAGS69yvb33D6NkFWpH/view?usp=sharing).
+- Finetuning on VeRi (83.41): ft_Res50_imbalance_s1_256_p0.5_lr1_mt_d0.2_b48_w5 (TMM) can be downloaded at [[GoogleDrive]](https://drive.google.com/file/d/1Sor7Grh_1Kot6CBLaw2alDT4Nr3JuH3C/view?usp=sharing).
+
 ### Extracted Features & Camera Prediction & Direction Prediction:
 I have updated the feature. You may download from [GoogleDrive](https://drive.google.com/file/d/1q0ap5smXoRIQ-oEUMbSMMSl_lEOT0Fk6/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/EdxlWLP9bB9Bga0jfDyoIO8Berahz8plAeRY6M4t8g_6iA?e=mSttQx) (expired by July 1 2022)
 ```
