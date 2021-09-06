@@ -23,7 +23,8 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  
 ### Trained Models 
 How to extract features? Please refer to [[Here]](https://github.com/layumi/AICIty-reID-2020/tree/master/pytorch#extract-feature-for-post-processing) 
-and there is one simplified version at [[Here]](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial#part-21-extracting-feature-python-testpy) 
+and there is one simplified version at [[Here]](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial#part-21-extracting-feature-python-testpy).
+Here we provide one model of the final models.
 
 - SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug (AICity 2020) can be downloaded at [[GoogleDrive]](https://drive.google.com/file/d/1AZ4hHbRbz2T8OHJ6QTG9bR7CP2zUOyQh/view?usp=sharing). 
 
