@@ -22,10 +22,10 @@ We fuse the models trained on Paddlepaddle and Pytorch. To illustrate them, we p
  
  
 ### Trained Models 
-How to extract feature? Please refer to [Here](https://github.com/layumi/AICIty-reID-2020/tree/master/pytorch#extract-feature-for-post-processing) 
-and there is one simplified version at [Here](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial#part-21-extracting-feature-python-testpy) 
+How to extract features? Please refer to [[Here]](https://github.com/layumi/AICIty-reID-2020/tree/master/pytorch#extract-feature-for-post-processing) 
+and there is one simplified version at [[Here]](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial#part-21-extracting-feature-python-testpy) 
 
-- SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug (AICity 2020) can be downloaded at [GoogleDrive](https://drive.google.com/file/d/1AZ4hHbRbz2T8OHJ6QTG9bR7CP2zUOyQh/view?usp=sharing). 
+- SE_imbalance_s1_384_p0.5_lr2_mt_d0_b24+v+aug (AICity 2020) can be downloaded at [[GoogleDrive]](https://drive.google.com/file/d/1AZ4hHbRbz2T8OHJ6QTG9bR7CP2zUOyQh/view?usp=sharing). 
 
 ### Extracted Features & Camera Prediction & Direction Prediction:
 I have updated the feature. You may download from [GoogleDrive](https://drive.google.com/file/d/1q0ap5smXoRIQ-oEUMbSMMSl_lEOT0Fk6/view?usp=sharing) or [OneDrive](https://studentutsedu-my.sharepoint.com/:u:/g/personal/12639605_student_uts_edu_au/EdxlWLP9bB9Bga0jfDyoIO8Berahz8plAeRY6M4t8g_6iA?e=mSttQx) (expired by July 1 2022)
