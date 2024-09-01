@@ -76,3 +76,17 @@ Please cite this paper if it helps your research:
   year={2020}
 }
 ```
+
+The heatmap visualization is based on 
+```bibtex
+@article{zheng2017discriminatively,
+  title={A discriminatively learned cnn embedding for person reidentification},
+  author={Zheng, Zhedong and Zheng, Liang and Yang, Yi},
+  journal={ACM transactions on multimedia computing, communications, and applications (TOMM)},
+  volume={14},
+  number={1},
+  pages={1--20},
+  year={2017},
+  publisher={ACM New York, NY, USA}
+}
+```
